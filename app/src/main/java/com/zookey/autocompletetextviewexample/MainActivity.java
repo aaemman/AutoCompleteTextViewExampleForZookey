@@ -44,7 +44,7 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 			}
-term
+
 			@Override
 			public void onTextChanged(final CharSequence s, int start, int before, int count) {
 				getAddressInfo(MainActivity.this, s.toString());
